@@ -1,0 +1,32 @@
+.cardsContainer{
+    width:100%;
+    height:500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eefbfe;
+    
+}
+.card{
+    width:17%;
+    height:230px;
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card>h1{
+    font-size:18px;
+    color:#0096aa;
+    align-self: center;
+}
+.card>ul{
+    align-self: flex-start;
+}
+.card>ul>li{
+    font-size: 11px;
+    color:#515562;
+    list-style-image: url(../Section5B/images/external-greater.png);
+}

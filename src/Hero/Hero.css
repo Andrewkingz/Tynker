@@ -1,0 +1,213 @@
+
+.mainHeroPage{
+    width: 100%;
+    background-image: url(./images/background@2x.png);
+    /* height: 96vh; */
+    /* position: absolute */
+    position: static;
+}
+
+.heroPage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+
+}
+
+.Btn{
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+
+}
+
+.Btn1{
+    height: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.Btn1:hover{
+     background-color: limegreen;
+}
+
+.Btn2{
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.Btn2:hover{
+    background-color: limegreen;
+}
+
+.Navs{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    align-items: center;
+    
+    
+   
+}
+
+.Navs>a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navPad:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+}
+
+.Pad{
+    width: 30px;
+    
+}
+
+.navPad{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+ .navPa{
+    width: 80px;
+     height: 28px;
+     font-size: 16px;
+     font-weight: bold;
+     padding-left: 5px;
+     margin-top: 5px;
+    
+} 
+
+.navPa:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+}
+
+
+.navEdu{
+    width: 100px;
+    height: 26px;
+    padding-top: 5px;
+    padding-left: -5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navEdu:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+}
+
+ .navCode{
+   height: 26px;
+   font-size: 16px;
+   font-weight: bold;
+   padding-top: 5px;
+ }  
+
+ .navCode:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+}
+
+.Logo{
+    width: 180px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+.mainHeroContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:400px ;
+    color: white;
+    margin-left: 30px;
+    
+}
+
+.Snow{
+    width: 800px;
+    height: 600px;
+    margin-top: 400px;
+    margin-right: -80px;
+    
+}
+
+.heroContent>h1{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.heroContent>h4
+{
+    width: 280px;
+    height: 40px;
+    border: 1px solid #FF8D1A;
+    background-color: #FF8D1A;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.para1{
+    margin-top:  -30px;
+    font-size: 24px;
+}
+
+.para2{
+    font-size: 24px;
+}
+
+.heroContent{
+    margin-left: 50px;
+}
+
+.Waver{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+
+.wave{
+    width: 100%;
+
+}
+.Help{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0%;
+    bottom: 20%;
+}
